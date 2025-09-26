@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudyRoomMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdb06473b2f170748a99d4f864ec19e36c783cba")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudyRoomMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudyRoomMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
