@@ -1,0 +1,13 @@
+@model StudyRoomMvc.Models.Booking
+
+<h2>Booking Details</h2>
+
+<div>
+    <h4>Room: @Model.Room</h4>
+    <p>Date: @Model.Date</p>
+    <p>Student: @Model.StudentName</p>
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.BookingId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</p>

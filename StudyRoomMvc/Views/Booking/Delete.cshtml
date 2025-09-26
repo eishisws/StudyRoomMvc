@@ -1,0 +1,15 @@
+@model StudyRoomMvc.Models.Booking
+
+<h2>Delete Booking</h2>
+<div>
+    <h4>Are you sure you want to delete this booking?</h4>
+    <div>Room: @Model.Room</div>
+    <div>Date: @Model.Date</div>
+    <div>Student: @Model.StudentName</div>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="BookingId"/>
+    <button type="submit" class="btn btn-danger">Delete</button> |
+    <a asp-action="Index">Cancel</a>
+</form>

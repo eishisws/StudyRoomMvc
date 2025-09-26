@@ -1,0 +1,28 @@
+@model IEnumerable<StudyRoomMvc.Models.Booking>
+
+<h2>Bookings</h2>
+<p><a asp-action="Create">Create New</a></p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Room</th>
+            <th>Date</th>
+            <th>Student Name</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>@item.Room</td>
+            <td>@item.Date</td>
+            <td>@item.StudentName</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.BookingId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.BookingId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.BookingId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
