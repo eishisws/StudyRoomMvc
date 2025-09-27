@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyRoomMvc", "StudyRoomMvc.csproj", "{7618A135-0529-468A-867C-CD98B9A38F3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyRoomMvc.Tests", "..\StudyRoomMvc.Tests\StudyRoomMvc.Tests.csproj", "{EA29C63C-497C-4035-B1B4-104B5ADDD859}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7618A135-0529-468A-867C-CD98B9A38F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7618A135-0529-468A-867C-CD98B9A38F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7618A135-0529-468A-867C-CD98B9A38F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA29C63C-497C-4035-B1B4-104B5ADDD859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA29C63C-497C-4035-B1B4-104B5ADDD859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA29C63C-497C-4035-B1B4-104B5ADDD859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA29C63C-497C-4035-B1B4-104B5ADDD859}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
