@@ -12,7 +12,7 @@ namespace StudyRoomMvc.Models
 
         [Required]
         [DataType(DataType.DateTime)]
-        public DateTime Date { get; set; }
+        public DateTime? Date { get; set; }
 
         [Required]
         public string StudentName { get; set; } = string.Empty;
