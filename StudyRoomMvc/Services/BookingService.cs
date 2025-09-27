@@ -4,13 +4,13 @@ using StudyRoomMvc.Data;
 
 namespace StudyRoomMvc.Services
 {
-    public class BookingService
+    public class BookingService: IBookingService
     {
-        private readonly BookingRepository _repo;
+        private readonly IBookingRepository _repo;
 
-        public BookingService(AppDbContext context)
+        public BookingService(IBookingRepository repo)
         {
-            _repo = new BookingRepository(context);
+            _repo = repo;
         }
 
         public List<Booking> GetAll()

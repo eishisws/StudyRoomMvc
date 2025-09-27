@@ -5,7 +5,7 @@ using StudyRoomMvc.Models;
 
 namespace StudyRoomMvc.Services
 {
-    public class BookingRepository
+    public class BookingRepository : IBookingRepository
     {
         private readonly AppDbContext _context;
 

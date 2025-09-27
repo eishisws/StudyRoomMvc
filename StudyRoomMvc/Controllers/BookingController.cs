@@ -7,11 +7,11 @@ namespace StudyRoomMvc.Controllers
 {
     public class BookingController : Controller
     {
-        private readonly BookingService _service;
+        private readonly IBookingService _service;
 
-        public BookingController(AppDbContext context)
+        public BookingController(IBookingService service)
         {
-            _service = new BookingService(context);
+            _service = service;
         }
 
         public IActionResult Index()
