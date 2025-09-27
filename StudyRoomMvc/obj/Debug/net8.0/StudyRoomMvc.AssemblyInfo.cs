@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("687abce8-ec8f-4007-98b1-bbbc4969669f")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudyRoomMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c39a41afe15ee96d3041438f4a5b700152d067af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+844a468982d355a0c2981ebe3120dadd57d28ebd")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudyRoomMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudyRoomMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
