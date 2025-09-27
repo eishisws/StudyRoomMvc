@@ -10,8 +10,6 @@
 4. Run "Update Database" in the Package Manager Console (the migration was already created by Eishi in an earlier commit)
 5. Everything should run as expected.
 
-Not trying to step on anyone's toes doing this, just trying to make the project easier to collaborate on, because nobody likes merge conflicts :)
-
 Hope this is helpful.
 
 Miguel
